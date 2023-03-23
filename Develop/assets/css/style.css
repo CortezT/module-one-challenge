@@ -7,7 +7,7 @@
 body {
     background-color: #d9dcd6;
 }
-
+/*Got rid of ".header" and changed to "header" beacause this header is not a class atribute in HTML*/
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -40,7 +40,7 @@ header div ul li {
     display: inline-block;
     margin-left: 25px;
 }
-
+/*Added margin of 10px to anchor*/ 
 a {
     color: #ffffff;
     text-decoration: none;
@@ -75,7 +75,7 @@ p {
     display: inline-block;
     margin-left: 20px;
 }
-
+/*Added the class .benefits from HTML to clean up repeating CSS code*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -86,24 +86,23 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-
+/*Added the class .benefits from HTML to clean up repeating CSS code*/
 .benefit {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
+/*Added the class .benefits from HTML to clean up repeating CSS code*/
 .benefit {
     margin-bottom: 10px;
     text-align: center;
 }
-
-
+/*Added the class .benefits from HTML to clean up repeating CSS code*/
 .benefit img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-
+/*Added the class .header from HTML to clean up repeating CSS code*/
 .header {
     margin-bottom: 20px;
     padding: 50px;
@@ -112,11 +111,11 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-
+/*Added the class .header from HTML to clean up repeating CSS code*/
 .header img {
     max-height: 200px;
 }
-
+/*Added the class .header from HTML to clean up repeating CSS code*/
 .header h2 {
     margin-bottom: 20px;
     font-size: 36px;
